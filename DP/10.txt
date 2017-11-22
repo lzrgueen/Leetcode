@@ -1,0 +1,16 @@
+Question 10:
+
+The most important part is, in Q10, '*' represents ZERO OR MORE OF THE PREVIOUS ELEMENT(NOT PLURAL)!
+For example, 'aab' matches 'c*a*b*' because the latter one has 0 c, 2 a's and 1 b.
+And also, for the function isMatch(string s,string p), the symbol '*' and '.' only appears in string p!!
+
+Two methods:
+1.Recursive
+2.DP
+
+Basic Recurrence:
+
+
+Other attentions for DP:
+For 2d array, we have to make it [m+1][n+1] instead of [m][n]
+
